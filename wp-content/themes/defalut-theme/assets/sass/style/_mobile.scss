@@ -3,45 +3,13 @@
 // 1300px
 @media all and (max-width: 1300px){
 
-	.home, .single-servicos, .single-post, .page {
-		.header {
-			padding: 20px 0;
-
-			&.scroll {
-				padding: 20px 0;
-			}
-		}
-	}
-
-	.nav {
-		margin-top: 7px;
-	}
-
-
-	body {
-		padding-top: 80px;
-	}
-
 }
 
 
 // 1080px
 @media all and (max-width: 1080px){
 
-	.logo {
-		float: left;
-		width: 150px;
-	}
 
-	.footer {
-		.footer-col {
-			width: 50%;
-
-			&:nth-child(2) {
-				display: none;
-			}
-		}
-	}
 
 }
 

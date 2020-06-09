@@ -40,10 +40,11 @@ h1 {
 	margin-bottom: 80px;
 }
 
-h2 {
+h2, h2 strong {
 	font-size: 2.625rem;
 	line-height: 3.0625rem;
 	color: $cor1;
+	margin-bottom: 15px;
 }
 
 h3 {
@@ -67,10 +68,9 @@ h6 {
 p {
 	font-size: $font-size;
 	line-height: $line-height;
-	padding-bottom: 30px;
 
-	&:last-child {
-		padding-bottom: 0;
+	&.cont-recuo {
+		padding-right: 50px;
 	}
 }
 
@@ -131,15 +131,19 @@ a, button, .btn-in {
 	}
 
 	&.btn {
-		font-weight: $light;
-		border: 1px solid #ffffff;
+		font-weight: $bold;
+		border: 1px solid $cor-txt;
 		background-color: #ffffff;
 		color: $cor-txt;
 		display: inline-block;
-		border-radius: 15px;
-		padding: 0 20px;
-		height: 30px;
-		line-height: 28px;
+		border-radius: 5px;
+		padding: 0 30px;
+		height: 49px;
+		line-height: 49px;
+		text-align: center;
+		font-size: 1rem;
+		text-transform: uppercase;
+		margin: 10px 0;
 
 		&.transparente {
 			background-color: transparent;

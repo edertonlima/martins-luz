@@ -6,7 +6,6 @@ body {
 	position: relative;
 	min-height: 100vh;
 	background: #ffffff;
-	padding-top: 150px;
 }
 
 body * {
@@ -110,6 +109,12 @@ body * {
 		}
 
 		p {
+			padding-bottom: 30px;
+
+			&:last-child {
+				padding-bottom: 0;
+			}
+
 			&:first-child {
 				margin-top: 0;
 			}
@@ -184,5 +189,18 @@ body * {
 		&:before {
 			background-color: rgba($cor1, .8);
 		}		
+	}
+}
+
+
+.flex {
+	display: flex;
+
+	&.align-center {
+		align-items: center;
+	}
+
+	&.justify-center {
+		justify-content: center;
 	}
 }

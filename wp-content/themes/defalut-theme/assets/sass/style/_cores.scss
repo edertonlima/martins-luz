@@ -20,6 +20,17 @@ a, .btn {
 			}
 		}
 	}
+
+	&.cor2 {
+		background-color: $cor2;
+		border-color: $cor2;
+		color: #ffffff;
+
+		&:hover {
+			background-color: darken($cor2, 10%); 
+			border-color: darken($cor2, 10%); 
+		}
+	}
 }
 
 
