@@ -73,7 +73,7 @@ body * {
 	@include box-sizing;
 	width: 100%;
 	position: relative;
-	padding: $padding-container 0;
+	padding: $padding-section 0;
 
 	.row {
 		.col-12 {
@@ -198,6 +198,10 @@ body * {
 
 	&.align-center {
 		align-items: center;
+	}
+
+	&.align-bottom {
+		align-items: end;
 	}
 
 	&.justify-center {

@@ -21,6 +21,17 @@ a, .btn {
 		}
 	}
 
+	&.cor1 {
+		background-color: $cor1;
+		border-color: $cor1;
+		color: #ffffff;
+
+		&:hover {
+			background-color: darken($cor1, 10%); 
+			border-color: darken($cor1, 10%); 
+		}
+	}
+
 	&.cor2 {
 		background-color: $cor2;
 		border-color: $cor2;

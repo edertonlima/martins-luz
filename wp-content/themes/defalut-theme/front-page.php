@@ -41,10 +41,35 @@
 							variáveis da sua empresa
 						</h2>
 
-						<p>O BPP Corp é uma solução única para a administração de gastos corporativos que conta com uma conta digital empresarial grátis, cartões VISA pré-pagos para controle total das despesas e um aplicativo sem custos adicionais para tornar seu controle financeiro mais simples e prático! /p>
+						<p>O BPP Corp é uma solução única para a administração de gastos corporativos que conta com uma conta digital empresarial grátis, cartões VISA pré-pagos para controle total das despesas e um aplicativo sem custos adicionais para tornar seu controle financeiro mais simples e prático! </p>
 					</div>
 
 				</div>
+			</div>
+		</section>
+
+		<section class="box-section">
+			<div class="container">
+
+				<div class="banner-destaque">
+					<div class="row flex align-bottom">
+
+						<div class="col-m-1 col-4">
+							<h2>
+								<strong>Organizar<br>reembolsos</strong> da sua empresa nunca foi tão rápido
+							</h2>
+
+							<p class="">Utilizando BPP Corp, você tem controle total sobre o budget de sua equipe podendo realizar transferências instantâneas para os cartões corporativos dos colaboradores, acompanhar gastos, receber comprovantes e visualizar relatórios que organizam seu reembolso.</p>
+
+							<a href="" class="btn cor1" title="Peça já sua proposta">Peça já sua proposta</a>
+						</div>
+						<div class="col-m-1 col-6">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bpp_corp_reembolso.png" alt="Assistir ao vídeo">
+						</div>
+
+					</div>
+				</div>
+
 			</div>
 		</section>
 
