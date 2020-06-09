@@ -128,6 +128,34 @@
 			</div>
 		</section>
 
+
+		<section class="box-section">
+			<div class="container">
+				
+				<div class="row flex align-center">
+					
+					<div class="col-m-1 col-5">
+						<div class="ico-marcas">
+							<span><img src="<?php echo get_template_directory_uri(); ?>/assets/images/ico-marcas-1.png" alt=""></span>
+							<span><img src="<?php echo get_template_directory_uri(); ?>/assets/images/ico-marcas-2.png" alt=""></span>
+							<span><img src="<?php echo get_template_directory_uri(); ?>/assets/images/ico-marcas-3.png" alt=""></span>
+							<span><img src="<?php echo get_template_directory_uri(); ?>/assets/images/ico-marcas-4.png" alt=""></span>
+						</div>
+					</div>
+
+					<div class="col-m-1 col-4">
+						<h3>
+							Conheça quem já conta com as <strong>vantagens excluisivas</strong> do BPP Corp
+						</h3>
+
+						<p class="cont-recuo margin">A empresas mais bem-sucedidas do mundo, grandes e pequenas, confiam no BPP Corp para reduzir custos com organização dos gastos da suas empresas. </p>
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+
 	<?php endwhile; ?>
 
 <?php get_footer(); ?>

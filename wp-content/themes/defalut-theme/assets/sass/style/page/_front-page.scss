@@ -42,3 +42,22 @@
 		margin-bottom: 65px;
 	}
 }
+
+
+.ico-marcas {
+	//padding: 50px;
+
+	span {
+		float: left;
+		width: 50%;
+		@include box-sizing;
+		padding: 7px 10px;
+	}
+
+	img {
+		padding: 35px 45px;
+		border: 2px solid #F6F9FC;
+		border-radius: 20px;
+		@include box-sizing;
+	}
+}

@@ -72,6 +72,10 @@ p {
 	font-size: $font-size;
 	line-height: $line-height;
 
+	&.margin {
+		margin-top: 15px;
+	}
+
 	&.cont-recuo {
 		padding-right: 50px;
 	}
