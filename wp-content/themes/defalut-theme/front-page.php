@@ -156,6 +156,70 @@
 			</div>
 		</section>
 
+
+		<section class="box-section">
+			<div class="container">
+
+				<h3 class="center">
+					A plataforma que ajuda a <strong>reduzir os gastos</strong> do dia a dia
+				</h3>
+
+				<p class="subtitulo">Simplifique a gestão das despesas, evitando a perda de tempo com comprovantes e planilhas, reduzindo custos e aumentando os resultados da sua empresa.</p>
+
+				<div class="list-txt-home">
+					<div class="row">
+						<div class="col-m-1 col-5 col-left">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ico-list-txt-1.png" alt="">
+							<h3>Dinheiro em papel</h3>
+							<ul>
+								<li>Saque de dinheiro em papel para as despesas </li>
+								<li>Várias notas fiscais em papel</li>
+								<li>Diversas planilhas de gestão</li>
+								<li>Problemas de contabilização dos gastos</li>
+								<li>Não tem segurança</li>
+							</ul>
+						</div>
+
+						<div class="col-5 col-right">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ico-list-txt-2.png" alt="">
+							<h3>BPP Corp</h3>
+							<ul>
+								<li>Faça pagamentos com o BPP Corp sem precisar tirar dinheiro</li>
+								<li>Prestação de contas sem papel, via app</li>
+								<li>Relatórios completos em um único lugar</li>
+								<li>Controle dos gastos com cartões pré-pago</li>
+								<li>Segurança total do seu dinheiro</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+
+		<section class="box-section">
+			<div class="container">
+
+				<div class="bg-imagem banner-destaque-full" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/images/bg-banner-full.jpg');">
+
+					<div class="row">
+						<div class="col-12 center">
+							<h3>A sua gestão financeira nunca foi tão fácil.</h3>
+
+							<p class="">Conte com as soluções do BPP Corp e facilite o controle dos gastos da sua empresa agora mesmo.</p>
+
+							<a href="" class="btn cor2" title="Peça já sua proposta">Peça já sua proposta</a>
+
+							<p class="txt-mini">Proposta <strong>grátis</strong> e sem compromisso.</p>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+ 
 	<?php endwhile; ?>
 
 <?php get_footer(); ?>
