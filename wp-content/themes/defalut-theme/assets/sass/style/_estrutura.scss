@@ -66,6 +66,12 @@ body * {
 			margin-left: $i*(100%/12);
 		}
 	}
+
+	.col-4 {
+		&:nth-child(3n+4) {
+			@include clear;
+		}
+	}
 }
 
 .box-section {
@@ -202,6 +208,7 @@ body * {
 
 	&.align-bottom {
 		align-items: end;
+		align-items: flex-end;
 	}
 
 	&.justify-center {
