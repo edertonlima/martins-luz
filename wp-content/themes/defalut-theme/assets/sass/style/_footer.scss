@@ -1,0 +1,7 @@
+.footer{
+	@include clear;
+	@include box-sizing;
+	width: 100%;
+	position: relative;
+	padding: $padding-container 0;
+}
