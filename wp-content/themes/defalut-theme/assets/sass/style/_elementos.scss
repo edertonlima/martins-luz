@@ -183,6 +183,32 @@ a, button, .btn-in {
 				}
 			}
 		}
+
+		&.mobile-inline {
+			display: none;
+			background: none;
+			border: none;
+			color: $cor2;
+			padding: 0;
+			text-align: left;
+			margin-top: 20px;
+
+			&:after {
+				display: inline-block;
+				width: 26px;
+				height: 12px;
+				content: '';
+				margin-left: 5px;
+				background-image: url('../images/arrow-right.png');
+			}
+
+			&:hover {
+				background: none;
+				border: none;
+				color: $cor2;
+				opacity: .75;
+			}
+		}
 	}
 
 	&.underline {

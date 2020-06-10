@@ -2,70 +2,7 @@
 <html lang="pt-br">
 <head>
 
-<?php /* 
-	$titulo_princ = get_field('titulo', 'option');
-	$descricao_princ = get_field('descricao', 'option');
-	$imagem_princ = get_field('imagem_principal', 'option');
-	$url = get_home_url();
-	$imgPage = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), '' );
-
-	if(is_tax()){
-		$terms = get_queried_object();
-		$titulo = $terms->name;
-		$descricao = $terms->description;
-		$imagem = get_field('imagem_listagem',$terms->taxonomy.'_'.$terms->term_id);
-		$url = get_term_link($terms->term_id);
-	}
-
-	if(is_archive()){
-		$titulo = get_field('titulo_pagina','option');
-		$descricao = get_field('descricao_pagina','option');
-		$imagem = get_field('imagem_pagina','option');
-		$url = $url.'/produtos';
-	}
-
-	if(is_single()){
-		$titulo = get_the_title();
-		$descricao = get_the_excerpt();
-		
-		if($imgPage[0] != ''){
-			$imagem = $imgPage[0];	
-		}			
-		$url = get_the_permalink();
-	}
-
-	if($titulo == ''){
-		$titulo = $titulo_princ;
-	}else{
-		$titulo = $titulo.' - '.$titulo_princ;
-	}
-	
-	if($descricao == ''){
-		$descricao = $descricao_princ;
-	}
-
-	$autor = 'Di20 Desenvolvimento'; 
-*/ ?>
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-<link rel="apple-touch-icon" sizes="57x57" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/favicon-16x16.png">
-<link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/assets/images/favicon/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
 
 <?php /*
 
@@ -107,8 +44,9 @@
 <meta name="twitter:image" content="<?php echo $imagem; ?>" />
 <!-- SOCIAL META -->
 
-<title><?php echo $titulo; ?></title>
 */ ?>
+<title><?php echo get_bloginfo( 'name' ); ?></title>
+
 <!-- CSS -->
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" media="screen" />
