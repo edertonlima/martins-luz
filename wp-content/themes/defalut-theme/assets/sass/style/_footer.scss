@@ -3,5 +3,26 @@
 	@include box-sizing;
 	width: 100%;
 	position: relative;
-	padding: $padding-container 0;
+	padding-bottom:  $padding-container*2;
+
+	.container {
+		padding: 0 16.666%;
+	}
+
+	h3 {
+		color: $cor3;
+	}
+
+	.ico-satisfacao {
+		text-align: right;
+
+		a {
+			margin: 0 5px;
+			display: inline-block;
+
+			&:hover {
+				opacity: .75;
+			}
+		}
+	}
 }

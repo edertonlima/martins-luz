@@ -219,6 +219,41 @@
 
 			</div>
 		</section>
+
+
+		<?php
+		$query = array(
+				'post_type' => 'post',
+				'posts_per_page' => 3
+			);
+		query_posts( $query );
+
+		if( have_posts() ){ ?>
+			<section class="box-section post list-post">
+				<div class="container">
+
+					<div class="row">
+						<div class="col-m-1 col-10">
+
+							<h2>Últimos posts</h2>
+
+							<div class="row row-mini flex">
+								
+								<?php 
+								while ( have_posts() ) : the_post();
+									get_template_part( 'content' );
+								endwhile; 
+								wp_reset_query();
+								?>
+
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+			</section>
+		<?php } ?>
  
 	<?php endwhile; ?>
 

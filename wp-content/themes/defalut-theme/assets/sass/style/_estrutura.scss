@@ -39,6 +39,16 @@ body * {
 			padding-right: $padding-col; 
 			padding-left: $padding-col;
 		}
+
+		&.row-mini {
+			margin-right: ($padding-col/2)*(-1);
+			margin-left: ($padding-col/2)*(-1);
+
+			[class*="col-"] {
+				padding-right: ($padding-col/2); 
+				padding-left: ($padding-col/2);
+			}
+		}
 	}
 
 	&.no-padding {

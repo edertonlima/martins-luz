@@ -54,7 +54,7 @@
 }
 
 @mixin scale() {
-	$value: 1.2;
+	$value: 1.1;
 	-webkit-transform: scale($value);
 	-moz-transform: scale($value);
 	-o-transform: scale($value);
@@ -63,8 +63,8 @@
 }
 
 @mixin scale-rotate() {
-	$scale: 1.2;
-	$rotate: -5deg;
+	$scale: 1.1;
+	$rotate: -3deg;
 	-webkit-transform: scale($scale) rotate($rotate);
 	-moz-transform: scale($scale) rotate($rotate);
 	-o-transform: scale($scale) rotate($rotate);
