@@ -269,49 +269,32 @@
 
 <script type="text/javascript">
 
-/*	function itens_ico(){
-		widthWindow = $(window).width();
-		if(widthWindow < 1181){*/
-
-			$('#itens-ico').owlCarousel({
-				loop:false,
-				margin:0,
-				responsiveClass:true,
-				dots:true,
+	$('#itens-ico').owlCarousel({
+		loop:false,
+		margin:0,
+		responsiveClass:true,
+		dots:true,
+		nav:false,
+		//rtl:true,
+		responsive:{
+			0:{
 				nav:false,
-				//rtl:true,
-				responsive:{
-					0:{
-						nav:false,
-						items:1
-					},
-					680:{
-						nav:false,
-						items:2
-					},
-					1180:{
-						nav:false,
-						items:3
-					},
-					1181:{
-						nav:false,
-						items:6,
-						dots:false,
-					}
-				}
-			})/*
-
-		}else{
-
+				items:1
+			},
+			680:{
+				nav:false,
+				items:2
+			},
+			1180:{
+				nav:false,
+				items:3
+			},
+			1181:{
+				nav:false,
+				items:6,
+				dots:false,
+			}
 		}
-	}
-
-	$(document).ready(function(){
-		itens_ico();
 	})
-
-	$(window).resize(function(){
-		itens_ico();
-	})*/
-
+	
 </script>
